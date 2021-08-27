@@ -1,0 +1,144 @@
+#app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#app .container {
+  width: 376px;
+  height: 666px;
+  z-index: 100;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+}
+
+#app .container-view {
+  padding: 0px 20px;
+}
+
+#app .archiveAll{
+  width: 336px;
+  height: 50px;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-radius: 0px 0px 10px 10px;
+  text-align:center;
+}
+
+#app .archiveAll:hover{
+  box-shadow: inset 336px 0 0 0 #DCDCDC;
+}
+
+#app .callList{
+  list-style-type:none;
+  width: 346px;
+  height: 400px;
+  overflow-x: hidden;
+}
+#app .callList::-webkit-scrollbar {
+  display: none;
+}
+
+#app .line{
+  height: 20px;
+  margin-top:20px;
+  border-top: 1px solid #000;
+  border-top-style: dotted;
+  text-align: center;
+}
+
+#app .text{
+  position: relative;
+  top: -7px;
+  background-color: white;
+  font-weight:bolder;
+}
+
+#app .call{
+  width: 336px;
+  height: 50px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+#app .call:hover{
+  box-shadow: inset 336px 0 0 0 #DCDCDC;
+}
+
+#app .left{
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+#app .center{
+  float: left;
+  width: 220px;
+  height: 50px;
+}
+
+#app .from{
+  height: 15px;
+  padding-top: 12px;
+}
+
+#app .right{
+  float: right;
+  width: 66px;
+  height: 50px;
+}
+
+#app .divider{
+  float: left;
+}
+
+#app .hour{
+  float: left;
+  position: relative;
+  text-align:center;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+#app .box{
+  float: right;
+  width: 25px;
+  height: 15px;
+  position: relative;
+  text-align:center;
+  top:50%;
+  transform:translateY(-50%);
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-radius: 4px 0px 0px 4px;
+}
+
+#app .block{
+  display: block;
+  margin-left: 10px;
+  width: 316px;
+  height: 30px;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#app .none{
+  display: none;
+  margin-left: 10px;
+  width: 316px;
+  height: 30px;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-radius: 0px 0px 10px 10px;
+}
